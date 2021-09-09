@@ -7,7 +7,9 @@
     <title>PTSP Kemenag Papua</title>
 
     <link rel="stylesheet" href="asset/css/normalize.css">
-    <link rel="stylesheet" href="asset/css/bootstrap.css">
+    <link rel="stylesheet" href="asset/css/bootstrap.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="asset/css/fontawesome-all.css">
     <link rel="stylesheet" href="asset/css/owl.carousel.css">
     <link rel="stylesheet" href="asset/css/main.css">
@@ -26,24 +28,30 @@
                 <div class="burger"><i class="fa fa-bars"></i></div>
                 <div class="mob-nav-wrapper">
                     <div class="right-group">
-                        <form action="" class="src-form">
-                            <input type="text" placeholder="Apa yang ingin anda cari?">
-                            <button><i class="fa fa-search"></i></button>
-                            <div class="src-toggle-bt"></div>
-                        </form>
                         <div class="lang-sel">
                             <div class="selected">Bahasa: ID</div>
                             <ul class="drop-ct">
-                                <li><a href="#" class="indonesia">ID</a></li>
-                                <li><a href="#" class="english">EN</a></li>
+                                <li><a href="#" class="indonesia">Indonesia</a></li>
+                                <li><a href="#" class="english">English</a></li>
                             </ul>
                         </div>
+                        <form action="" class="src-form">
+                            <input type="text" placeholder="Apa yang ingin anda cari?">
+                            <div class="src-toggle-bt"></div>
+                            <button><i class="fa fa-search"></i></button>
+                        </form>
                     </div>
                     <div class="main-menu">
                         <div class="menu-item"><a href="index.html">BERANDA</a></div>
-                        <div class="menu-item has-dropdown"><a href="layanan.html">LAYANAN</a></div>
+                        <div class="menu-item"><a href="layanan.html">LAYANAN</a></div>
                         <div class="menu-item"><a href="lacak-berkas.html">LACAK BERKAS</a></div>
-                        <div class="menu-item"><a href="antrian.html">ANTRIAN ONLINE</a></div>
+                        <div class="menu-item has-dropdown">
+                            <a href="antrian.html">ANTRIAN ONLINE <i class="fa fa-caret-down"></i></a>
+                            <ul class="drop-ct">
+                                <li><a href="antrian.html">Daftar Antrian</a></li>
+                                <li><a href="info-antrian.html">Info Antrian</a></li>
+                            </ul>
+                        </div>
                         <div class="menu-item has-dropdown">
                             <a href="informasi.html">INFORMASI <i class="fa fa-caret-down"></i></a>
                             <ul class="drop-ct">
@@ -135,7 +143,7 @@
             </div>
         </section>
 
-        <section class="strip-1">
+        <section class="strip-1 green-bg">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3">
@@ -173,7 +181,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <p>Temukan layanan lain dan rasakan berbagai kemudahan <a href="layanan.html" class="btn btn-darker"></a></p>
+                        <p>Temukan layanan lain dan rasakan berbagai kemudahan <a href="layanan.html" class="btn btn-darker">Semua Layanan</a></p>
                     </div>
                 </div>
             </div>
@@ -190,7 +198,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="card-2">
                             <h4>IZIN APA? SYARATNYA APA?</h4>
                             <p>Ada lebih dari 500 izin yang diurus di PTSP</p>
@@ -198,7 +206,7 @@
                             <div class="c-icon"><i class="fa fa-file-signature"></i></div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="card-2">
                             <h4>MENGURUS IZIN ONLINE?</h4>
                             <p>Kini ada izin yang bisa diurus online</p>
@@ -206,7 +214,7 @@
                             <div class="c-icon"><i class="fa fa-file-signature"></i></div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="card-2">
                             <h4>ANTAR JEMPUT IZIN BERMOTOR</h4>
                             <p>Petugas kami akan mendatangi Anda secara langsung, GRATIS.</p>
@@ -214,7 +222,7 @@
                             <div class="c-icon"><i class="fa fa-file-signature"></i></div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="card-2">
                             <h4>IZIN SAYA SUDAH SELESAI?</h4>
                             <p>Cek posisi izin saya di sini?</p>
@@ -222,7 +230,7 @@
                             <div class="c-icon"><i class="fa fa-file-signature"></i></div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="card-2">
                             <h4>JAM BERAPA SAYA ANTRE?</h4>
                             <p>Seluruh antrean bisa dilakukan melalui online agar tak tunggu lama?</p>
@@ -230,7 +238,7 @@
                             <div class="c-icon"><i class="fa fa-file-signature"></i></div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="card-2">
                             <h4>WHATSAPP CHAT</h4>
                             <p>Gunakan layanan terbaru kami dalam berkomunikasi menggunakan live chat</p>
@@ -266,7 +274,7 @@
                 </div>
             </div>
         </section>
-        <section class="image-bg" style="background: url(asset/images/bank/pic2.jpeg) no-repeat center fixed; background-size: cover;">
+        <section class="image-bg" style="background: url(asset/images/bank/pic1.jpeg) no-repeat center fixed; background-size: cover;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -295,7 +303,7 @@
                     <div class="col-md-4">
                         <a href="index.html" class="foot-logo"><img src="asset/images/logo-2.png" alt=""></a>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-5">
                         <h5>SITEMAP</h5>
                         <ul class="sitemap">
                             <li><a href="index.html">Beranda</a></li>
@@ -305,10 +313,10 @@
                             <li><a href="informasi.html">Informasi</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
                         <h5>SOSIAL MEDIA</h5>
                         <ul class="social-media">
-                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
                             <li><a href="#"><i class="fab fa-line"></i></a></li>
@@ -326,6 +334,7 @@
 
     <script src="asset/js/jquery-1.11.0.min.js"></script>
     <script src="asset/js/owl.carousel.min.js"></script>
+    <script src="asset/js/main.js"></script>
     <script>
         $(document).ready(function(){
             $(".headline-slider").owlCarousel({
