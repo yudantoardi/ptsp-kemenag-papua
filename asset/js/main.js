@@ -22,4 +22,9 @@ $(document).ready(function(){
         $($(this).parent()).addClass("active");
     });
 
+    $(".burger").click(function(){
+        $(".mob-nav-wrapper").toggleClass("show");
+        $($(this).children("i")).toggleClass("fa-times fa-bars");
+    });
+
 });
