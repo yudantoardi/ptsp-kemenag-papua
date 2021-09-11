@@ -153,6 +153,12 @@ section,
     width: 330px;
     float: left;
     padding: 10px 0;
+    height: 80px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 .mob-nav-wrapper{
     width: calc(100% - 330px);
@@ -1085,6 +1091,20 @@ section.widget{
 
 iframe{
     width: 100%;
+}
+
+@media only screen and (max-width: 1366px){
+    .logo,
+    .mob-nav-wrapper .right-group{
+        width: 240px;
+    }
+    .header .bottom-bar{
+        padding: 0 30px;
+    }
+    .mob-nav-wrapper,
+    .mob-nav-wrapper .main-menu{
+        width: calc(100% - 240px);
+    }
 }
 
 @media only screen and (max-width: 768px){
